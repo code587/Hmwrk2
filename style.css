@@ -1,0 +1,49 @@
+* {
+    background-color: mistyrose;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+#profile-picture {
+    border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0 4px 6px 0;
+	transition: all ease-in-out .2s;
+}
+nav {
+    display: flex;
+    float: right;
+    margin-top: 85px;
+    justify-content: space-between;
+    min-width: 350px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: monospace;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-family: cursive;
+}
+.about {
+    display: flex;
+    float: left;
+    padding: 0px 20px 20px 0;   
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+}
+
+.container img {
+    width: 150%;
+    height: auto;
+    padding: 20px 200px;
+}
+
