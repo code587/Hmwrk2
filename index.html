@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opheila Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css" >
-    <img id="profile-picture" src="Images\portfolio-profile-pic.jpeg" />
 </head>
 <body>
     <header>
-    <h1>Ophelia</h1>
+        <img id="profile-picture" src="Images\portfolio-profile-pic.jpeg" />
+        <h1>Ophelia Ravenwood</h1>
+    
     <nav>
-        <a href="#">About Me</a>
-        <a href="#">Resume</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+       </ul>
     </nav>
 
     <main>
+    <h4>About Me</h4>
     <p>Photography is my passion! My photography journey started when I was 15 and attened a gallery exhibit with my mother.  I saw absolutely stunning photographs.  It was then I knew photograpy was my calling. </p>
     <p>
     My 5 years experience traveling the world with my cameras to take Art and fashion photographs aligns with your job requirements. In addition, my background working in fashion shows, editorial photo shoots, tv and film sets gives me the skills to adjust in any environment while meeting the key's and client's expectations.
@@ -27,32 +31,41 @@
     </p>
     </main>
 
+    <section>
+        <h2>My Projects</h2>
+
     <section class="workexamples">
-        <div class="container">
-            <h4 class="art-medium">Editorial</h4>
-            <image src="Images\editorial photo.jpeg" alt= "Editorial fashion photo with women from India"/>
-        </div>
-        <div class="container">
-            <h4 class="art-medium">Make-up</h4>
-            <image src="Images\make-up photo.jpeg" alt= "face with blue paint"/>
-        </div>
-        <div class="container">
-            <h4 class="art-medium">Animal</h4>
-            <image src="Images\animal-photo.jpeg" alt= "black and white whale photo"/>
-        </div>
-        <div class="container">
-            <h4 class="art-medium">Safari</h4>
-            <image src="Images\elephant photograph.jpeg" alt= "elephant in the jungle"/>
-        </div>
+        <article class="container">
+            <h4 class="projects">Project 1</h4>
+            <img id="project-image1" src="Images\editorial photo.jpeg" alt= "Editorial fashion photo with women from India"/>
+            <br>
+        </article>
+        <article class="container">
+            <h4 class="projects">Project 2</h4>
+            <img class="project-image" src="Images\make-up photo.jpeg" alt= "face with blue paint"/>
+            <br>
+        </article>
+        <article class="container">
+            <h4 class="projects">Project 3</h4>
+            <img class="project-image" src="Images\whale fin.jpeg" alt= "black and white whale fin photo"/>
+        </br>
+        </article>
+        <article class="container">
+            <h4 class="projects">Project 4</h4>
+            <img class="project-image" src="Images\elephant photograph.jpeg" alt= "elephant in the jungle"/>
+        </article>
     </section>
 
     <section>
-        
-        <ul id="Contact-info">Contact Me</ul>
-            <li>Email: someone@gmail.com</li>
-            <li>LinkedIn: someone@linkedIn.com</li>
+        <h3 id="cv">Resume</h3>
+        <a id="resume" href="#">Ophelia's Resume</a>
+
+        <h3 id="contact">Contact Me
+        <ul>
+            <li>Email: <a href="#">someone@gmail.com</a></li>
+            <li>LinkedIn: <a href="#">someone@LinkedIn.com</a></li>
             <li>Phone: 555-555-5555</li>
-        </nav>
+        </ul>
     </section>
     
    
