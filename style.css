@@ -29,7 +29,6 @@ h4 {
 nav ul {
     display: flex;
     float: right;
-    min-width: 750px;
     padding-bottom: 50px;
     font-size: 20px;
     font-family: monospace;
