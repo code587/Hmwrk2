@@ -2,6 +2,7 @@
     background-color: mistyrose;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -9,15 +10,20 @@ header {
     justify-content: space-between;
     padding: 1%;
 }
+a {
+    text-decoration: none;
+}
 #profile-picture {
     border-radius: 50%;
 	width: 150px;
 	height: 150px;
 	box-shadow: 0 4px 6px 0;
+    display: inline;
 }
 h1 {
     font-family: cursive;
     font-size: 50px;
+    display: inline;
 }
 h4 {
     font-size: 25px;
@@ -32,8 +38,9 @@ nav ul {
 }
 nav li {
     list-style-type: none;
-    min-width: 100px;
+    min-width: 150px;
 }
+
 p {
     display: flex;
     flex-direction: column;
@@ -97,3 +104,9 @@ footer {
     font-weight: bold;
     color: darkolivegreen;
 }
+@media screen and (max-width: 992px) {
+    header {
+    background-color: red;
+    }
+  }
+  
