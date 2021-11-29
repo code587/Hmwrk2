@@ -108,5 +108,15 @@ footer {
     header {
     background-color: red;
     }
+}
+@media screen and (max-width: 768px) {
+    p {
+      background-color: olive
+    }
+  }
+@media screen and (max-width: 576px) {
+    .container{
+      background-color: blue;
+    }
   }
   
