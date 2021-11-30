@@ -9,7 +9,7 @@ Bootstrap
 
 
 ## Screenshot
-![portfolio screenshot](Images\screenshot.png)
+Images/portfolio screenshot.png
 
 ## link to portfolio
 https://127.0.0.1:5502/index.html#projects
