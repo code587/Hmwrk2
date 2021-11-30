@@ -14,28 +14,25 @@
 <body>
     
     <header>
+        <div>
+            <nav class="navbar fixed-top navbar-light">
+                <ul>
+                    <li><a href="#knowme">About Me</a></li>
+                    <li><a href="#cv">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+            </nav>    
+        </div>
         <div id="picContainer">
             <img id="profile-picture" src="Images\profile-pic.jpeg"/>
             <h1>Stephanie Sanders</h1>
-        </div>
-        
-        <div>
-            <nav class="navbar fixed-top navbar-light">
-                <div class="container-fluid">
-                    <ul>
-                        <li><a href="#aboutme">About Me</a></li>
-                        <li><a href="#cv">Resume</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact Me</a></li>
-                    </ul>
-                </div>
-            </nav>
         </div>
     </header>
 
     <main>
         <section>
-            <aside id="aside" style="display: inline";>
+            
             <h4 id="knowme">Get to know me</h4>
                   
             <p>
@@ -54,34 +51,24 @@
         </section>
         
         <section>
-            <h2>My Projects</h2>
+            <h2 id="projects">My Projects</h2>
 
         <section class="workexamples">
             <article class="container">
-            <h4 class="projects">Project 1</h4>
+           
             <img class="project-image" src="Images\computer code.jpeg " alt= "Photo with purple code"/>
-            <button class="btn">placeholder</button>
+            <a id="gitlink1" href="https://git@github.com:SherlockTheHomie/Urban-Disco-Burrito.git"></a>
+            <button class="btn" id="ubdProject">Create Date Night</button>
            <br>
             </article>
             <article class="container">
-            <h4 class="projects">Project 2</h4>
             <img class="project-image" src="Images\web design.jpeg" alt= "computer with web design"/>
-            <button class="btn">placeholder</button>
+            <a id="gitlink2" href="https://github.com/code587/Hmwrk3-js"></a>
+            <button class="btn">Generate Password</button>
             <br>
             </article>
-            <article class="container">
-            <h4 class="projects">Project 3</h4>
-            <img class="project-image" src="https://via.placeholder.com/200" alt= "placeholder image"/>
-            <button class="btn">placeholder</button>
-            </br>
-            </article>
-            <article class="container">
-            <h4 class="projects">Project 4</h4>
-            <img class="project-image" src="https://via.placeholder.com/200" alt= "placeholder image"/>
-            <button class="btn">placeholder</button>
-            </article>
         </section>
-
+        
         <section>
             <h3 id="cv">Resume</h3>
             <a id="resume" href="https://docs.google.com/document/d/1AgIGAaQ4GNleDFWeI3a1lRmHjfAuSi7wtoFSiD3GNhc/edit">My Resume</a>
