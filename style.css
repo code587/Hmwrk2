@@ -34,6 +34,11 @@ nav li {
     display: inline;
     margin-top: 10px;
 }
+h4 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 25px;
+}
 h1 {
     font-family: cursive;
     font-size: 50px;
@@ -45,7 +50,16 @@ h2 {
     font-family: cursive;
     font-style: italic;
     font-size: 25px;
-
+}
+h3 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 25px;
+}
+#resume {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 25px;
 }
 #knowme {
     padding-top: 100px;
@@ -53,7 +67,9 @@ h2 {
     margin-bottom: 10px;
 }
 p {
-    display: inline;
+    display: inline-block;
+    justify-content: end;
+    margin-right: 80px;
 }
 a {
     text-decoration: none;
@@ -83,19 +99,43 @@ p {
     width: 50%;
     height: 50%;
 }
-.container .btn {
+.container .btn1 {
     position: absolute;
-    top: 85%;
-    left: 30%;
+    top: 75%;
+    left: 25%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: crimson;
-    color: white;
+    background-color: blanchedalmond;
+    width: 180px;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 5px 6px 5px dimgrey ;
+}
+/* style of date night button to rotate */
+.btn1:hover {
+    transform: rotateX(30deg) rotateZ(20deg)
+}
+.container .btn2 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: violet;
+    width: 180px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px palevioletred;
+}
+/* style of note taker button to rotate */
+.btn2:hover {
+    transform: rotateX(30deg) rotateZ(20deg)
 }
 #cv {
     margin-top: 125px;
@@ -121,19 +161,34 @@ footer {
     font-weight: bold;
     color: darkolivegreen;
 }
-@media screen and (max-width: 992px) {
-    header {
-    background-color: red;
-    }
-}
+/* media screen for mobile responsiveness */
 @media screen and (max-width: 768px) {
-    p {
-      background-color: olive
+    main,
+    nav {
+     flex-direction: column;   
     }
-}
-@media screen and (max-width: 576px) {
+    ul {
+     flex-direction: column;
+    }
+    section {
+        order: 2;
+        flex-direction: column;
+    }
+    header {
+        background-color: red;
+        flex-direction: column;
+    }
     .container{
-      background-color: blue;
+       display: flexbox;
+      }
+    h4 {
+     flex-direction: column;
+    }
+    p {
+        flex-direction: column;
+        background-color: olive
+    }
+    img {
+        flex-direction: column;
     }
 }
-  

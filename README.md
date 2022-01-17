@@ -12,10 +12,10 @@ Bootstrap
 Images/portfolio screenshot.png
 
 ## link to portfolio
-https://127.0.0.1:5502/index.html#projects
+https://code587.github.io/Stephanie-S-Portfolio/
 
 ## github repository link
-https://github.com/code587/Hmwrk2
+https://github.com/code587/Stephanie-S-Portfolio
 ## Any inquiries can be sent to Stephanie Sanders at stephsands@live.com
 
 ## commits
