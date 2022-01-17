@@ -1,6 +1,9 @@
 :root {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
+header {
+    margin-left: 400px;
+}
 body {
    background-color: mistyrose;
 }
@@ -25,6 +28,7 @@ nav li {
     justify-content: space-between;
     padding: 1%;
     margin-top: 10px;
+    
 }
 #profile-picture {
     border-radius: 50%;
