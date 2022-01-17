@@ -9,7 +9,7 @@ Bootstrap
 
 
 ## Screenshot
-Images/portfolio screenshot.png
+![127 0 0 1_5502_index html (8)](https://user-images.githubusercontent.com/93016627/149730400-18656a17-6c47-48ee-862e-8507dc609a00.png)
 
 ## link to portfolio
 https://code587.github.io/Stephanie-S-Portfolio/
